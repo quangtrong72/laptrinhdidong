@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D6E4D3"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <!-- Avatar -->
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#073B3A"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@android:drawable/sym_def_app_icon"
+            android:tint="#3DDC84"/>
+    </FrameLayout>
+
+    <!-- Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jennifer Doe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#2E2E2E"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Job -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developer Extraordinaire"
+        android:textSize="14sp"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="6dp"/>
+
+    <!-- Đẩy xuống dưới -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- Phone -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@android:drawable/ic_menu_call"
+            android:tint="#1B5E20"/>
+
+        <TextView
+            android:layout_marginStart="16dp"
+            android:text="+11 (123) 444 555 666"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"/>
+    </LinearLayout>
+
+    <!-- Username -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@android:drawable/ic_menu_share"
+            android:tint="#1B5E20"/>
+
+        <TextView
+            android:layout_marginStart="16dp"
+            android:text="@AndroidDev"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"/>
+    </LinearLayout>
+
+    <!-- Email -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@android:drawable/ic_dialog_email"
+            android:tint="#1B5E20"/>
+
+        <TextView
+            android:layout_marginStart="16dp"
+            android:text="jen.doe@android.com"
+            android:textSize="15sp"
+            android:textColor="#2E2E2E"/>
+    </LinearLayout>
+
+</LinearLayout>

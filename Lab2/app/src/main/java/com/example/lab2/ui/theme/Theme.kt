@@ -1,6 +1,5 @@
 package com.example.lab2.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -46,8 +45,8 @@ fun BusinessCardTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
 
-        darkTheme -> com.example.lab2.ui.theme.DarkColorScheme
-        else -> com.example.lab2.ui.theme.ThemLightColorScheme
+        darkTheme -> DarkColorScheme
+        else -> LightColorScheme
     }
 
     MaterialTheme(

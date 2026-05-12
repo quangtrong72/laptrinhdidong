@@ -1,142 +1,132 @@
 # 📱 Mobile Programming Exercises
 
-## 👤 Thông tin sinh viên
+## 👨‍🎓 Thông tin sinh viên
 
-- **Họ và tên:** Nguyễn Văn Nhân
-- **Mã sinh viên:** 24ITE068
-- **Môn học:** Lập trình Di động
-- **Giảng viên:** Ths. Ngô Lê Quân
-
----
-
-## 📌 Giới thiệu
-
-Repository này chứa **toàn bộ các bài Lab môn Lập trình Di động**, được tổ chức theo từng thư mục riêng biệt.  
-Mỗi **Lab là một project độc lập**, thuận tiện cho việc học tập, chấm điểm và quản lý mã nguồn trên GitHub.
+| Thông tin | Chi tiết |
+|---|---|
+| 👤 Họ và tên | Trần Lê Quang Trọng |
+| 🆔 Mã sinh viên | 24IT288 |
+| 📚 Môn học | Lập trình Di động |
+| 👨‍🏫 Giảng viên | Ths. Ngô Lê Quân |
 
 ---
 
-## 📂 Cấu trúc thư mục
+# 📌 Giới thiệu
 
-Mobile-Programming-Exercises/
-│
-├── Lab01\*Kotlin_Basics/
-│ └── Bài tập Kotlin cơ bản (Console)
-│
-├── Lab02_Greeting_Card/
-│ └── Ứng dụng Android: Thiệp chúc mừng hiển thị trên máy ảo
-│
-├── Lab03_Dice Roller
-│ └── Ứng dụng Android: Tung xúc sắc
-│
-├── Lab04\_...
-│
-└── README.md
+Repository này chứa toàn bộ các bài Lab môn **Lập trình Di động** được thực hiện bằng **Kotlin** và **Android Studio**.
 
----
+Mỗi Lab được xây dựng thành một project riêng biệt nhằm:
+- Dễ dàng quản lý source code
+- Thuận tiện cho việc học tập và thực hành
+- Hỗ trợ chấm điểm và báo cáo
+- Theo dõi tiến độ học tập trên GitHub
 
-## 🧪 Chi tiết các Lab
+Các bài Lab giúp làm quen với:
+- Kotlin cơ bản
+- Android UI
+- Jetpack Compose
+- Firebase Authentication
+- Firebase Firestore
+- Navigation
+- Xử lý sự kiện trong Android
+🔹 Lab 01 – Kotlin Basics
+📖 Mô tả
 
-### 🔹 Lab 01 – Kotlin Basics
+Lab giúp làm quen với ngôn ngữ lập trình Kotlin và các cú pháp cơ bản trước khi phát triển ứng dụng Android.
 
-- Làm quen với ngôn ngữ **Kotlin**
-- Cú pháp cơ bản: biến, hàm, điều kiện, vòng lặp
-- Chạy chương trình dạng **Console**
-- Mục tiêu: nắm vững nền tảng Kotlin trước khi vào Android
+⚡ Chức năng
+Khai báo biến và kiểu dữ liệu
+Sử dụng hàm
+Câu điều kiện
+Vòng lặp
+Nhập xuất dữ liệu Console
+🛠 Công nghệ sử dụng
+Kotlin
+Console Application
 
-📁 Thư mục: `Lab01`
+📁 Thư mục: Lab01_Kotlin_Basics
 
----
+🔹 Lab 02 – Greeting Card App
+📖 Mô tả
 
-### 🔹 Lab 02 – Greeting Card App
+Ứng dụng Android đơn giản hiển thị thiệp chúc mừng trên máy ảo Android Emulator.
 
-- Xây dựng ứng dụng Android đơn giản
-- Hiển thị **thiệp chúc mừng** trên máy ảo (Emulator)
-- Làm quen với:
-  - Activity
-  - Layout XML
-  - TextView, ImageView
+⚡ Chức năng
+Hiển thị hình ảnh
+Hiển thị lời chúc
+Thiết kế giao diện cơ bản
+Làm quen với Activity và XML Layout
+🛠 Công nghệ sử dụng
+Kotlin
+Android Studio
+XML Layout
 
-📁 Thư mục: `Lab02`
+📁 Thư mục: Lab02_Greeting_Card
 
----
+🔹 Lab 03 – Dice Roller 🎲
+📖 Mô tả
 
-### 🔹 Lab 03 – Ứng dụng Android Tung Xúc Xắc 🎲
+Ứng dụng mô phỏng tung xúc xắc ngẫu nhiên bằng Android.
 
-- Xây dựng ứng dụng Android đơn giản bằng **Kotlin**
-- Giao diện hiển thị hình ảnh xúc xắc
-- Khi người dùng nhấn nút **Roll**, ứng dụng sẽ:
-  - Sinh số ngẫu nhiên từ 1 đến 6
-  - Thay đổi hình ảnh xúc xắc tương ứng
-- Làm quen với:
-  - Activity
-  - Button, ImageView
-  - Xử lý sự kiện `onClick`
-  - Sử dụng tài nguyên `drawable`
-- Chạy và kiểm tra ứng dụng trên **Android Emulator**
+⚡ Chức năng
+Sinh số ngẫu nhiên từ 1 → 6
+Hiển thị hình ảnh xúc xắc tương ứng
+Xử lý sự kiện khi nhấn nút Roll
+Cập nhật giao diện theo kết quả
+🛠 Công nghệ sử dụng
+Kotlin
+Android Studio
+Drawable Resources
 
-📁 Thư mục: `Lab03`
-Lab7: Quản lý khóa học Firebase
-Mô tả
+📁 Thư mục: Lab03_Dice_Roller
 
-Ứng dụng quản lý khóa học sử dụng Firebase Firestore để lưu trữ dữ liệu trực tuyến. Người dùng có thể thêm, xem và cập nhật thông tin khóa học.
+🔹 Lab 07 – Quản lý khóa học Firebase
+📖 Mô tả
 
-Chức năng
+Ứng dụng CRUD quản lý khóa học sử dụng Firebase Firestore để lưu trữ dữ liệu trực tuyến.
+
+⚡ Chức năng
 Thêm khóa học mới
 Xem danh sách khóa học
 Cập nhật thông tin khóa học
-Lưu dữ liệu trực tiếp trên Firebase Firestore
 Hiển thị dữ liệu dạng danh sách
-Giao diện CRUD hiện đại bằng Jetpack Compose
-Tự động làm mới dữ liệu khi cập nhật
-Công nghệ sử dụng
+Tự động làm mới dữ liệu
+Giao diện hiện đại bằng Jetpack Compose
+🛠 Công nghệ sử dụng
 Firebase Firestore
 Kotlin
 Jetpack Compose
 Material 3
-🔹 Lab 8: Đăng nhập / Đăng ký Firebase
-Mô tả
 
-Ứng dụng xác thực người dùng sử dụng Firebase Authentication. Người dùng có thể tạo tài khoản mới, đăng nhập vào hệ thống và đăng xuất khi cần.
+📁 Thư mục: Lab07_Firebase_Course
 
-Chức năng
-Đăng ký tài khoản bằng Email và Password
+🔹 Lab 08 – Đăng nhập / Đăng ký Firebase
+📖 Mô tả
+
+Ứng dụng xác thực người dùng sử dụng Firebase Authentication.
+
+⚡ Chức năng
+Đăng ký tài khoản
 Đăng nhập hệ thống
 Đăng xuất tài khoản
-Kiểm tra thông tin nhập vào
-Hiển thị thông báo lỗi khi đăng nhập thất bại
-Điều hướng giữa các màn hình bằng Navigation
-Giao diện hiện đại với Jetpack Compose
-Công nghệ sử dụng
+Kiểm tra dữ liệu đầu vào
+Hiển thị thông báo lỗi
+Điều hướng giữa các màn hình bằng Navigation Compose
+🛠 Công nghệ sử dụng
 Firebase Authentication
 Kotlin
 Jetpack Compose
 Navigation Compose
 Material 3
----
 
-## 🛠 Công cụ & Công nghệ sử dụng
+📁 Thư mục: Lab08_Firebase_Authentication
 
-- **Android Studio**
-- **Kotlin**
-- **Gradle**
-- **Android Emulator**
-- **Git & GitHub**
-
----
-
-## ✅ Ghi chú
-
-- Mỗi Lab là **một project Android/Kotlin riêng**
-- Không gộp nhiều Lab vào chung một project
-- Repository được cập nhật theo tiến độ học tập
-
----
-
-## 📬 Liên hệ
-
-Nếu có vấn đề trong quá trình chạy project, vui lòng liên hệ sinh viên để được hỗ trợ.
-
----
-
-✨ _“Practice makes progress.”_ ✨
+🛠 Công cụ & Công nghệ sử dụng
+📱 Android Studio
+💻 Kotlin
+🎨 Jetpack Compose
+🔥 Firebase Authentication
+☁ Firebase Firestore
+⚙ Gradle
+📲 Android Emulator
+🌐 Git & GitHub

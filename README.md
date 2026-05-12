@@ -29,7 +29,7 @@ Các bài Lab giúp làm quen với:
 - Firebase Firestore
 - Navigation
 - Xử lý sự kiện trong Android
-🔹 Lab 01 – Kotlin Basics
+# 🔹 Lab 01 – Kotlin Basics
 📖 Mô tả
 
 Lab giúp làm quen với ngôn ngữ lập trình Kotlin và các cú pháp cơ bản trước khi phát triển ứng dụng Android.
@@ -46,7 +46,7 @@ Console Application
 
 📁 Thư mục: Lab01_Kotlin_Basics
 
-🔹 Lab 02 – Greeting Card App
+# 🔹 Lab 02 – Greeting Card App
 📖 Mô tả
 
 Ứng dụng Android đơn giản hiển thị thiệp chúc mừng trên máy ảo Android Emulator.
@@ -62,8 +62,7 @@ Android Studio
 XML Layout
 
 📁 Thư mục: Lab02_Greeting_Card
-
-🔹 Lab 03 – Dice Roller 🎲
+# 🔹 Lab 03 – Dice Roller 🎲
 📖 Mô tả
 
 Ứng dụng mô phỏng tung xúc xắc ngẫu nhiên bằng Android.
@@ -79,8 +78,7 @@ Android Studio
 Drawable Resources
 
 📁 Thư mục: Lab03_Dice_Roller
-
-🔹 Lab 07 – Quản lý khóa học Firebase
+# 🔹 Lab 07 – Quản lý khóa học Firebase
 📖 Mô tả
 
 Ứng dụng CRUD quản lý khóa học sử dụng Firebase Firestore để lưu trữ dữ liệu trực tuyến.
@@ -100,7 +98,7 @@ Material 3
 
 📁 Thư mục: Lab07_Firebase_Course
 
-🔹 Lab 08 – Đăng nhập / Đăng ký Firebase
+# 🔹 Lab 08 – Đăng nhập / Đăng ký Firebase
 📖 Mô tả
 
 Ứng dụng xác thực người dùng sử dụng Firebase Authentication.

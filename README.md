@@ -76,7 +76,43 @@ Mobile-Programming-Exercises/
 - Chạy và kiểm tra ứng dụng trên **Android Emulator**
 
 📁 Thư mục: `Lab03`
+Lab7: Quản lý khóa học Firebase
+Mô tả
 
+Ứng dụng quản lý khóa học sử dụng Firebase Firestore để lưu trữ dữ liệu trực tuyến. Người dùng có thể thêm, xem và cập nhật thông tin khóa học.
+
+Chức năng
+Thêm khóa học mới
+Xem danh sách khóa học
+Cập nhật thông tin khóa học
+Lưu dữ liệu trực tiếp trên Firebase Firestore
+Hiển thị dữ liệu dạng danh sách
+Giao diện CRUD hiện đại bằng Jetpack Compose
+Tự động làm mới dữ liệu khi cập nhật
+Công nghệ sử dụng
+Firebase Firestore
+Kotlin
+Jetpack Compose
+Material 3
+🔹 Lab 8: Đăng nhập / Đăng ký Firebase
+Mô tả
+
+Ứng dụng xác thực người dùng sử dụng Firebase Authentication. Người dùng có thể tạo tài khoản mới, đăng nhập vào hệ thống và đăng xuất khi cần.
+
+Chức năng
+Đăng ký tài khoản bằng Email và Password
+Đăng nhập hệ thống
+Đăng xuất tài khoản
+Kiểm tra thông tin nhập vào
+Hiển thị thông báo lỗi khi đăng nhập thất bại
+Điều hướng giữa các màn hình bằng Navigation
+Giao diện hiện đại với Jetpack Compose
+Công nghệ sử dụng
+Firebase Authentication
+Kotlin
+Jetpack Compose
+Navigation Compose
+Material 3
 ---
 
 ## 🛠 Công cụ & Công nghệ sử dụng

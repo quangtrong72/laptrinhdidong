@@ -130,3 +130,32 @@ Material 3
 ⚙ Gradle
 📲 Android Emulator
 🌐 Git & GitHub
+## 🔹 Lab 10 – Inventory App 📦
+
+### 📖 Mô tả
+Ứng dụng quản lý kho hàng (Inventory App) được xây dựng bằng Android và Kotlin.  
+Ứng dụng hỗ trợ quản lý danh sách sản phẩm trong kho như thêm sản phẩm, cập nhật số lượng và theo dõi thông tin hàng hóa.
+
+Lab giúp làm quen với việc xây dựng ứng dụng CRUD hoàn chỉnh trên Android kết hợp Room Database và Jetpack Compose.
+
+### ⚡ Chức năng
+- Thêm sản phẩm mới vào kho
+- Hiển thị danh sách sản phẩm
+- Cập nhật thông tin sản phẩm
+- Xóa sản phẩm khỏi kho
+- Quản lý số lượng hàng tồn kho
+- Hiển thị giá sản phẩm
+- Giao diện hiện đại bằng Jetpack Compose
+- Lưu trữ dữ liệu cục bộ bằng Room Database
+
+### 🛠 Công nghệ sử dụng
+- Kotlin
+- Jetpack Compose
+- Room Database
+- ViewModel
+- Navigation Compose
+- Material 3
+
+📁 Thư mục: `Lab10_Inventory_App`
+
+---
